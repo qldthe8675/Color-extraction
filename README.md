@@ -34,31 +34,13 @@ pip install opencv-python numpy pandas colour-science matplotlib scipy
 
 If you wish to retrain the network from scratch using the provided dataset:
 
-```
-python train_ann.py
-```
-
-The trained model weights will be saved in the `models/` folder.
 
 ### 2. Run color extraction
 
 To run the trained ANN on a new input image:
 
-```
-python color_extraction.py --input path/to/image.png --output path/to/output_mask.png
-```
-
 The output is a binary mask indicating regions detected as red.
 
-### 3. Run CVD simulation
-
-To simulate how a CVD observer would perceive an input image:
-
-```
-python cvd_simulation.py --input path/to/image.png --type protanopia --output path/to/simulated.png
-```
-
-Available simulation types: `protanopia`, `deuteranopia`, `tritanopia`.
 
 ## Data Description
 
@@ -71,27 +53,7 @@ Data partitioning used in the manuscript:
 
 A fixed random seed was used for partitioning to ensure reproducibility.
 
-## Citation
-
-If you use this code or data in your research, please cite our paper:
-
-```
-Cho, S.-H., Baek, D.-H., Choi, W. J., & Choi, Y.-W. (2026).
-Dual-color augmented-reality waveguide display for color vision assistance using color tracking.
-iScience (under review).
-```
 
 ## Contact
 
-For questions or further information, please contact the lead contact:
-
-**Young-Wan Choi, Ph.D.**
-Department of Intelligent Semiconductor Engineering
-School of Electrical and Electronic Engineering
-Chung-Ang University
-84 Heukseok-ro, Dongjak-gu, Seoul 06974, Republic of Korea
-Email: ychoi@cau.ac.kr
-
-## License
-
-This repository is provided for academic and research purposes. Please contact the lead contact for other uses.
+For questions or further information, please contact the lead contact in the manuscript:
