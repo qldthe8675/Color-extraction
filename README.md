@@ -9,7 +9,8 @@ The algorithm operates on the HSV color space and was implemented in Python with
 
 <img src="./ANN architecture for color extraction.png" width="50%"
  height="50%">
-
+<img src="./Masked images.png" width="50%"
+ height="50%">
 ## Repository Contents
 
 - `AI_HSV_color extraction.py` — Main script for ANN-based red-color region extraction.
