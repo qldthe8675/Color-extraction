@@ -5,7 +5,8 @@
 
 This repository provides the artificial neural network (ANN)-based color tracking algorithm used to identify red-color regions in real-world scenes. The extracted color regions serve as overlay cues in a dual-color holographic optical element (CM-HOE)-based augmented-reality (AR) waveguide display, designed to assist users with color vision deficiency (CVD) in discriminating red-green color pairs.
 
-The algorithm operates on the HSV color space and was implemented in Python with a feed-forward ANN. It is also accompanied by a fast gradient sign method (FGSM) robustness evaluation and a CVD perception simulation pipeline based on standard linear-transform models.
+The algorithm operates on the HSV color space and was implemented in Python with a feed-forward ANN.
+
 
 ## Repository Contents
 
@@ -27,6 +28,7 @@ You can install all dependencies via:
 ```
 pip install opencv-python numpy pandas colour-science matplotlib scipy
 ```
+
 
 ## How to Use
 
