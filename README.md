@@ -1,4 +1,4 @@
-# Color Extraction for Dual-color AR Waveguide Display for Color Vision Assistance
+# Color extraction for dual-color AR Waveguide display for color vision assistance
 
 
 ## Overview
@@ -7,7 +7,8 @@ This repository provides the artificial neural network (ANN)-based color trackin
 
 The algorithm operates on the HSV color space and was implemented in Python with a feed-forward ANN.
 
-![image](ANN architecture for color extraction.png)
+<img src="./ANN architecture for color extraction.png" width="50%"
+ height="50%">
 
 ## Repository Contents
 
