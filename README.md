@@ -1,12 +1,5 @@
 # Color Extraction for Dual-color AR Waveguide Display for Color Vision Assistance
 
-This repository contains the source code and example image data accompanying the manuscript:
-
-> **Dual-color augmented-reality waveguide display for color vision assistance using color tracking**
->
-> Seong-Hyeon Cho, Do-Hun Baek, Woo June Choi, Young-Wan Choi
->
-> *iScience* (under review, 2026)
 
 ## Overview
 
@@ -16,12 +9,8 @@ The algorithm operates on the HSV color space and was implemented in Python with
 
 ## Repository Contents
 
-- `color_extraction.py` — Main script for ANN-based red-color region extraction.
-- `cvd_simulation.py` — Script for simulating CVD-perceived images using a linear LMS-space transform.
-- `train_ann.py` — Script for training the feed-forward ANN on the annotated dataset.
-- `dataset/` — Folder containing example images used for training and evaluation.
-- `models/` — Folder containing trained ANN model weights.
-- `results/` — Folder containing example output masks and simulated CVD images.
+- `AI_HSV_color extraction.py` — Main script for ANN-based red-color region extraction.
+- `training_images.zip` — CVD samples data set for traning and evaluation.
 
 ## Requirements
 
