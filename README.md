@@ -7,9 +7,12 @@ This repository provides the artificial neural network (ANN)-based color trackin
 
 The algorithm operates on the HSV color space and was implemented in Python with a feed-forward ANN.
 
-<img src="./ANN architecture for color extraction.png" width="50%"
+<div align="center">
+ <img src="./ANN architecture for color extraction.png" width="50%"
  height="50%">
-<img src="./Masked images.png">
+ <img src="./Masked images.png">
+</div>
+
 ## Repository Contents
 
 - `AI_HSV_color extraction.py` — Main script for ANN-based red-color region extraction.
