@@ -39,9 +39,6 @@ pip install opencv-python numpy pandas colour-science matplotlib scipy
 
 ### 1. Train the ANN (optional)
 
-If you wish to retrain the network from scratch using the provided dataset:
-
-
 ### 2. Run color extraction
 
 To run the trained ANN on a new input image:
